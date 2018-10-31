@@ -1,0 +1,33 @@
+body{
+ height: 100%;
+    display: grid;
+   /* position: relative; */
+}
+
+.container {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(175, 164, 164, 0.822);
+      /*centrowanie horizontal */
+
+    /*position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+*/
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    margin: auto;
+ 
+   
+
+}
+
+div {
+    background-color: rgba(0, 0, 0);
+}
+
+div:nth-child(2n+1) {
+    background-color: #fff;
+}
