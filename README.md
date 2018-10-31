@@ -1,2 +1,2 @@
-# chessboard
+# chessboard-grid
 layout chessboard
