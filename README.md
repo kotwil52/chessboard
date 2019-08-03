@@ -1,2 +1,2 @@
 # chessboard-grid
-layout chessboard
+Simple layout chessboard with grid
